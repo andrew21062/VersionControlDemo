@@ -46,7 +46,6 @@ def main():
         print("1. Add Record")
         print("2. Delete Record")
         print("3. View Records")
-        print("4. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
             add_record()
@@ -54,9 +53,6 @@ def main():
             delete_record()
         elif choice == "3":
             view_records()
-        elif choice == "4":
-            print("Exiting program.")
-            break
         else:
             print("Invalid choice. Please try again.")
 
